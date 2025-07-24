@@ -1,4 +1,4 @@
-package Exercicios;
+package Exercicios.petMachine;
 
 public class Pet {
     private final String name;

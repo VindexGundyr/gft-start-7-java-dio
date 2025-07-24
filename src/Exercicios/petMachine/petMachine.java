@@ -1,4 +1,4 @@
-package Exercicios;
+package Exercicios.petMachine;
 //Exemplo da aula
 public class petMachine {
     private boolean clean = true;

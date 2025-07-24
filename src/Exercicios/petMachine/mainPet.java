@@ -1,4 +1,4 @@
-package Exercicios;
+package Exercicios.petMachine;
 //Exemplo da aula
 import java.util.Scanner;
 
