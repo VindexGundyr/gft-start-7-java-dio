@@ -1,23 +1,15 @@
 package keyword;
 
-public class Client {
-    protected String name;
-    protected int age;
+public final class Client {
+    private static String staticName;
+//    private final String name;
 
-
-    protected String getName() {
-        return name;
+    public static String getStaticName() {
+        return staticName;
     }
 
-    protected void setName(String name) {
-        this.name = name;
+    public void setStaticName(final String param) {
+        staticName = param;
     }
 
-    protected int getAge() {
-        return age;
-    }
-
-    protected void setAge(int age) {
-        this.age = age;
-    }
 }
